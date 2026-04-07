@@ -1,0 +1,43 @@
+# ==========================
+# STM32CubeIDE .gitignore
+# ==========================
+
+# Build output
+Debug/
+Release/
+build/
+
+# STM32CubeIDE project settings (user-specific)
+.settings/
+.metadata/
+*.launch
+
+# Eclipse CDT generated files
+*.cproject.bak
+
+# Compiled objects
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.srec
+
+# IDE workspace
+.project.bak
+RemoteSystemsTempFiles/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Temporary files
+*.tmp
